@@ -1,6 +1,15 @@
 # 補足情報
 
 ## リリースノート
+- 2025/01/11 : v2.2.0
+  - TLAD：ギャングメンバーのステータス表示を日本語化
+  - TLAD：メールの返信文がカタカナ、漢字を表示できるように修正
+  - TBoGT：ゴルフのスコア表示を日本語化
+  - TBoGT：ミッション完了後にヘルプテキストの領域が狭くなる問題を修正
+  - TLAD, TBoGT：QUB3Dの上部スコアの位置を修正
+  - IV, TLAD, TBoGT：警察端末内のフォントサイズを調整
+
+
 - 2024/12/18 : v2.1.1
   - フォントの体裁を調整
   - その他文字化けの修正
@@ -33,15 +42,18 @@
 ```
 ./common/data/fonts_j.dat
 ./common/data/frontend_menus.xml
+./common/data/images.txt
 ./common/text/japanese.gxt
 ./pc/textures/fonts_j.wtd
 ./TBoGT/common/data/fonts_j.dat
 ./TBoGT/common/data/frontend_menus.xml
+./TBoGT/common/data/images.txt
 ./TBoGT/common/text/japanese.gxt
 ./TBoGT/pc/textures/fonts_j.wtd
 ./TBoGT/content.dat
 ./TLAD/common/data/fonts_j.dat
 ./TLAD/common/data/frontend_menus.xml
+./TLAD/common/data/images.txt
 ./TLAD/common/text/japanese.gxt
 ./TLAD/pc/textures/fonts_j.wtd
 ./TLAD/content.dat
@@ -49,15 +61,15 @@
 <br>
 
 ## FusionFixとの併用
-当MODはThirteenAG氏の「[GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)」最新版ｖ3.4.0と併用での動作を確認しています。
+当MODはThirteenAG氏の「[GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)」最新版ｖ3.5.1と併用での動作を確認しています。
 
 FusionFixは『Grand Theft Auto IV: The Complete Edition』のバグ修正からグラフィックスの改善、拡張機能等を追加するMODです。  
 これを入れるだけでGTAIVにおける既存の問題の多くが解消します。ぜひ導入することをお勧めします。
 
 > [!WARNING]
-> FusionFixを導入すると、上記内３ファイル「frontend_menus.xml」が競合します。  
+> FusionFixを導入すると、上記内３ファイル「frontend_menus.xml」(と 一部スクリプトファイル)が競合します。  
 > それを回避すべく、当MOD「GTAIV.CE.JapaneseFix」には上書き用の「update」フォルダを同封しています。  
-> このフォルダをそのままゲームディレクトリに貼り付けてください。「GTAIV.exe」が置いてある場所です。
+> FusionFix導入後、このフォルダをそのままゲームディレクトリに貼り付けてください。「GTAIV.exe」が置いてある場所です。
 
 ![](./img/i_cap_03.png?raw=true)
 <br><br>
