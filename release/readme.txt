@@ -1,6 +1,6 @@
 ═════════════════════════════
 
- GTAIV.CE.JapaneseFix v2.2.0
+ GTAIV.CE.JapaneseFix v2.2.1
 
 ═════════════════════════════
 
@@ -9,7 +9,13 @@ https://github.com/prjct-samwest/GTAIV.CE.JapaneseFix
 
 
 ## リリースノート
+
+- 2025/01/23 : v2.2.1
+  - IV, TLAD, TBoGT：一部文字化けの修正
+
+
 - 2025/01/11 : v2.2.0
+
   - TLAD：ギャングメンバーのステータス表示を日本語化
   - TLAD：メールの返信文がカタカナ、漢字を表示できるように修正
   - TBoGT：ゴルフのスコア表示を日本語化
