@@ -16,8 +16,9 @@ GTAIV本編に加えて2つのDLC『ザ・ロスト・アンド・ダムド』�
 <br><br>
 
 ## GTAIV.CE.JapaneseFix の特徴
-- GTAIV最新バージョンで動作（従来のようにダウングレードする必要はありません）
-- Steamの言語設定は日本語のままでOK（Rockstar Launcherも日本語のままで起動できる）
+- GTAIV Complete Editionで動作（従来のようにダウングレードする必要はありません）
+- Steamの言語設定は日本語のままでOK（Rockstar Launcherも日本語で起動、実績解除も可）
+- DLC2作品の日本語化に加え本編の一部文字化けを修正・フォントを高画質化
 - リリースノート等の情報は「[補足情報](NOTES.md)」をご確認ください。
 
 <br>
