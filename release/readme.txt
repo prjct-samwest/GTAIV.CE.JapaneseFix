@@ -1,6 +1,6 @@
 ═════════════════════════════
 
- GTAIV.CE.JapaneseFix v2.2.1
+ GTAIV.CE.JapaneseFix v2.2.2
 
 ═════════════════════════════
 
@@ -9,6 +9,9 @@ https://github.com/prjct-samwest/GTAIV.CE.JapaneseFix
 
 
 ## リリースノート
+- 2025/03/30 : v2.2.2
+  - TLAD, TBoGT：手配レベルの「★」表示を修正
+
 
 - 2025/01/23 : v2.2.1
   - IV, TLAD, TBoGT：一部文字化けの修正
