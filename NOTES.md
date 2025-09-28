@@ -1,6 +1,11 @@
 # 補足情報
 
 ## リリースノート
+- 2025/09/29 : v3.0.0
+  - 日本語化ロジックの変更（安定性の向上、冒頭警告文の日本語化）
+  - オプションメニューの言語切り替えボタンを削除
+
+
 - 2025/03/30 : v2.2.2
   - TLAD, TBoGT：手配レベルの「★」表示を修正
 
@@ -49,18 +54,15 @@
 
 ```
 ./common/data/fonts_j.dat
-./common/data/frontend_menus.xml
 ./common/data/images.txt
 ./common/text/japanese.gxt
 ./pc/textures/fonts_j.wtd
 ./TBoGT/common/data/fonts_j.dat
-./TBoGT/common/data/frontend_menus.xml
 ./TBoGT/common/data/images.txt
 ./TBoGT/common/text/japanese.gxt
 ./TBoGT/pc/textures/fonts_j.wtd
 ./TBoGT/content.dat
 ./TLAD/common/data/fonts_j.dat
-./TLAD/common/data/frontend_menus.xml
 ./TLAD/common/data/images.txt
 ./TLAD/common/text/japanese.gxt
 ./TLAD/pc/textures/fonts_j.wtd
@@ -69,55 +71,20 @@
 <br>
 
 ## FusionFixとの併用
-当MODはThirteenAG氏の「[GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)」最新版ｖ3.5.1と併用での動作を確認しています。
+当MODはThirteenAG氏の「[GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)」最新版ｖ4.0.3と併用での動作を確認しています。
 
 FusionFixは『Grand Theft Auto IV: The Complete Edition』のバグ修正からグラフィックスの改善、拡張機能等を追加するMODです。  
 これを入れるだけでGTAIVにおける既存の問題の多くが解消します。ぜひ導入することをお勧めします。
 
 > [!WARNING]
-> FusionFixを導入すると、上記内３ファイル「frontend_menus.xml」(と 一部スクリプトファイル)が競合します。  
+> FusionFixを導入すると、一部スクリプトファイルが競合します。  
 > それを回避すべく、当MOD「GTAIV.CE.JapaneseFix」には上書き用の「update」フォルダを同封しています。  
 > FusionFix導入後、このフォルダをそのままゲームディレクトリに貼り付けてください。「GTAIV.exe」が置いてある場所です。
 
 ![](./img/i_cap_03.png?raw=true)
 <br><br>
 
-## FusionFixのバージョンアップデートによる懸念
-> [!CAUTION]
-> 今後FusionFixのアップデートにより、「frontend_menus.xml」が変更される場合があります。  
-> すると恐らく「言語切り替えボタン」が消失します。
-> その際はお手数ですが、「update」内3つの「frontend_menus.xml」を手動で書き換えて（マージ）いただく必要があります。
-
-FusionFix用「frontend_menus.xml」内の
-```
-<options action="MENUOPT_ADJUST" label="MO_LAN" value="PREF_CURRENT_LANGUAGE" scaler="7" displayValue="MENU_DISPLAY_LANGUAGE" />
-```
-の真下に
-```
-<!-- START -- Add for GTAIV.CE.JapaneseFix -->
-<options action="MENUOPT_NONE" label="" value="PREF_NULL" scaler="0" displayValue="MENU_DISPLAY_NONE"/>
-<options action="MENUOPT_ADJUST" label="Switch Language" value="PREF_CURRENT_LANGUAGE" scaler="7" displayValue="MENU_DISPLAY_NONE"/>
-<!-- END -- Add for GTAIV.CE.JapaneseFix -->
-```
-を追記してください。各ファイル2か所ずつ、計6カ所です。
-<br><br>
-
-## FusionFixのオープニングスキップの問題
-FusionFixの設定でオープニングスキップをONにしている場合、タイトル画面が日本語に切り替わるまでタイムラグが発生します。
-これは言語切り替えの処理がRockstar Launcherのサインインのタイミングに依存しているため（おそらく）です。
-つまり現状仕様です。
-
-> **言語切り替えボタンを押したときの処理を任意のタイミングで呼び出す**
-
-もしくは
-> **究極、日本語orそれ以外の言語のタイトル画面切り替えを防ぐ**  
-
-ができれば
-もっとも良いのでしょうが...
-今の私の知識ではこれが限界です。ご容赦ください。<br><br>
-
-
-# 謝辞
+## 謝辞
 このMODの制作にあたり、Xbox360版テキストを公開して頂いたkagikn氏、翻訳して頂いた有志の皆様。そして開発上参考にさせて頂いたThirteenAG氏、gennariarmando氏、CookiePLMonster氏にこの場をお借りして感謝申し上げます。上記の方々および長年のGTAMOD開発コミュニティの皆様の貢献無くしてこのMODは実現できませんでした。
 
 また、私はプログラミングの専門家でもなく、リバースエンジニアリングに精通しているわけでもありません。

@@ -1,6 +1,6 @@
 # 【PC版】Grand Theft Auto IV: The Complete EditionのDLC2作品（EFLC）を日本語でプレイする
 
-最終更新：2025.03.30　　最新バージョン：v2.2.2
+最終更新：2025.09.29　　最新バージョン：v3.0.0
 
 ![](./img/i_ttl_01.jpg?raw=true)<br><br>
 
@@ -30,7 +30,7 @@ GTAIV本編に加えて2つのDLC『ザ・ロスト・アンド・ダムド』�
 
 ## 手順
 ### 1.導入前の確認
-- ゲームが最新バージョンであり、問題なく起動できるか確認してください。
+- ゲームが最新バージョンであり、問題なく起動できることを確認してください。
 - Steamの言語設定が日本語以外になっている場合は日本語に戻しておいてください。
 - 上記「必要なもの」からzipファイルを2つダウンロードしてください。
 > [!WARNING]
@@ -41,13 +41,12 @@ GTAIV本編に加えて2つのDLC『ザ・ロスト・アンド・ダムド』�
 
 ### 2.ゲームのインストールディレクトリを開く
 GTAIVがインストールされているディレクトリを開いて、ファイルを追加する準備をします。  
+「GTAIV.exe」が置いてある場所です。
 - ```C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV\```  
   ※場所はインストール環境によって変わります<br><br>
 
 ### 3.Ultimate-ASI-Loader
-ダウンロードした「Ultimate-ASI-Loader」内の「dinput8.dll」をゲームディレクトリ直下に貼り付けます。「GTAIV.exe」が置いてある場所です。
-- ```C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV\```  
-  ※場所はインストール環境によって変わります
+ダウンロードした「Ultimate-ASI-Loader」内の「dinput8.dll」をゲームディレクトリ直下に貼り付けます。
 
 ![](./img/i_cap_01.png?raw=true)<br><br>
 
@@ -59,11 +58,7 @@ GTAIVがインストールされているディレクトリを開いて、ファ
 - 「TLAD」ディレクトリ
 - 「GTAIV.CE.JapaneseFix.asi」
 
-の5つをゲームディレクトリ直下に貼り付けます。「GTAIV.exe」が置いてある場所です。
-
-
-- ```C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV\```  
-  ※場所はインストール環境によって変わります
+の5つをゲームディレクトリ直下に貼り付けます。
 
 ![](./img/i_cap_02.png?raw=true)
 
@@ -71,19 +66,13 @@ GTAIVがインストールされているディレクトリを開いて、ファ
 > FusionFixを導入している場合は、「― FusionFix 上書き用 ―」にある「update」ディレクトリも一緒にゲームディレクトリ直下へ貼り付けてください。  
 > FusionFix併用に関する情報と詳細については、「[補足情報](NOTES.md)」をご確認ください。
 
-
 <br><br>
 
-### 5.ゲームを起動し、日本語に設定する
-ゲームを起動すると英語になっているので、以下の画像を参考に  
-「Options」→「Display」から「Switch Language」を数回押して日本語に切り替えてください。   
-併せて、字幕も「ON」になっているか確認しておきましょう。
+### 5.ゲームを起動し、EFLCの選択画面が表示されていれば成功です。
+![](./img/i_ttl.gif?raw=true)
+<br><br>
 
-![](./img/i_setting.gif?raw=true)<br><br>
-
-
-### 6.ストーリーを開始し、日本語になっていたら成功です。
-次回以降は日本語設定は必要ありません。※最初の警告文は英語のままです。
+### 6.TLADとTBoGTを日本語でプレイ！
 
 <img src="./img/i_ss_01.jpg?raw=true" width="400">  <img src="./img/i_ss_02.jpg?raw=true" width="400"><br><br>
 

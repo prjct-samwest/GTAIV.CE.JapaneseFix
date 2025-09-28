@@ -1,6 +1,6 @@
 ═════════════════════════════
 
- GTAIV.CE.JapaneseFix v2.2.2
+ GTAIV.CE.JapaneseFix v3.0.0
 
 ═════════════════════════════
 
@@ -9,6 +9,11 @@ https://github.com/prjct-samwest/GTAIV.CE.JapaneseFix
 
 
 ## リリースノート
+- 2025/09/29 : v3.0.0
+  - 日本語化ロジックの変更（安定性の向上、冒頭警告文の日本語化）
+  - オプションメニューの言語切り替えボタンを削除
+
+
 - 2025/03/30 : v2.2.2
   - TLAD, TBoGT：手配レベルの「★」表示を修正
 
@@ -18,7 +23,6 @@ https://github.com/prjct-samwest/GTAIV.CE.JapaneseFix
 
 
 - 2025/01/11 : v2.2.0
-
   - TLAD：ギャングメンバーのステータス表示を日本語化
   - TLAD：メールの返信文がカタカナ、漢字を表示できるように修正
   - TBoGT：ゴルフのスコア表示を日本語化
