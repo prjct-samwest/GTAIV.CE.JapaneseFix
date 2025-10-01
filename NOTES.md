@@ -1,9 +1,9 @@
 # 補足情報
 
 ## リリースノート
-- 2025/09/29 : v3.0.0
+- 2025/10/02 : v3.0.0
   - 日本語化ロジックの変更（安定性の向上、冒頭警告文の日本語化）
-  - オプションメニューの言語切り替えボタンを削除
+  - オプションの言語切り替えボタンを廃止
 
 
 - 2025/03/30 : v2.2.2
@@ -71,7 +71,7 @@
 <br>
 
 ## FusionFixとの併用
-当MODはThirteenAG氏の「[GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)」最新版ｖ4.0.3と併用での動作を確認しています。
+当MODはThirteenAG氏の「[GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)」最新版ｖ4.0.4と併用での動作を確認しています。
 
 FusionFixは『Grand Theft Auto IV: The Complete Edition』のバグ修正からグラフィックスの改善、拡張機能等を追加するMODです。  
 これを入れるだけでGTAIVにおける既存の問題の多くが解消します。ぜひ導入することをお勧めします。
